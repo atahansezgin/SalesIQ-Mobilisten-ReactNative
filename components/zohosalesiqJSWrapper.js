@@ -176,6 +176,9 @@ module.exports = {
   disableScreenshotOption: function () {
     RNZohoSalesIQ.disableScreenshotOption();
   },
+  enablePush:function(fcmToken,testDevice){
+    RNZohoSalesIQ.enablePush(fcmToken,testDevice)
+  },
   enableInAppNotification: function () {
     RNZohoSalesIQ.enableInAppNotification();
   },

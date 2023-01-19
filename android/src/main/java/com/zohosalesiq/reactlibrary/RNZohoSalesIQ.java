@@ -898,7 +898,7 @@ public class RNZohoSalesIQ extends ReactContextBaseJavaModule {
             });
         }
     }
-
+    @ReactMethod
     public static void enablePush(String token, Boolean testDevice) {
         fcmToken = token;
         isTestDevice = testDevice;
